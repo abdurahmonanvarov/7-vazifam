@@ -64,28 +64,29 @@ console.log(sum);
 //MASALALAR
 //1-masala
 /**
- * function color(arr){
-    let colors = [];
-    colors.push('Qizil');
-    colors.push('Oq')
-    colors.push('Sariq')
-   return arr =colors ;
+ * function colors(color1, color2, color3){
+    let res = [];
+    res.push(color1);
+    res.push(color2);
+    res.push(color3);
 
+    return res;
 }
-console.log(color());
+console.log(colors('Qizil', 'Yashil', 'Kok'));
  */
+
 
 ///2-masala
 /**
- * function color(arr){
-    let colors = [];
-    colors.push(1);
-    colors.push(2)
-    colors.push(3)
-   return arr =colors ;
+ * function colors(num1, num2, num3){
+    let res = [];
+    res.push(num1);
+    res.push(num2);
+    res.push(num3);
 
+    return res;
 }
-console.log(color());
+console.log(colors(3, 4, 5));
  */
 
 //3-masala
@@ -234,7 +235,8 @@ console.log(numbers());
  */
 
 //21-masala
-function numbers(arr){
+/***
+ * function numbers(arr){
     let number = [1,2,3,4,5,6,7,8,10,9];
     let max;
    for (let i=0; i<=number.length; i++){
@@ -248,7 +250,8 @@ function numbers(arr){
 }
 console.log(numbers());
 
-
+2222222222222222222222222
+ */
 
 
 //33-masala
@@ -264,13 +267,15 @@ console.log(bir[1,2,3,4, ['qizil', 'yashil', 'kok']]);
  */
 
 //MASALALAR-MASSIV METODLARIGA OID
-//1-masala
 /**
- * let a = ['BMw','MERC','TAYOTA'];
-a.push('FERARIY');
-console.log(a);
- */
+ * function qosh(arr1, arr2){
+    arr1.push(arr2);
 
+    return arr1;
+}
+
+console.log(qosh([1,2,3],5));
+ */
 //2-masala
 /**
  * let a = ['BMw','MERC','TAYOTA','Cobilt'];
