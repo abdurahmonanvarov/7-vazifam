@@ -267,114 +267,142 @@ console.log(bir[1,2,3,4, ['qizil', 'yashil', 'kok']]);
  */
 
 //MASALALAR-MASSIV METODLARIGA OID
+//1-MASALA
 /**
- * function qosh(arr1, arr2){
-    arr1.push(arr2);
-
-    return arr1;
+ * function newElement(arr, element){
+    arr.push(element);
+    return arr;
 }
-
-console.log(qosh([1,2,3],5));
+console.log(newElement([4,7],2));
  */
+
 //2-masala
 /**
- * let a = ['BMw','MERC','TAYOTA','Cobilt'];
-a.pop();
-console.log(a);
-
+ * function newElement(arr){
+    arr.pop();
+    return arr;
+}
+console.log(newElement([4,7,56,7]));
  */
 
 //3-masala
 /**
- * let a = ['BMw','MERC','TAYOTA','Cobilt','Nexia'];
-a.shift();
-console.log(a);
-
+ * function newElement(arr,){
+    arr.shift();
+    return arr;
+}
+console.log(newElement([4,7,56,7]));
  */
 
 //4-masala
 /**
- * let a = ['BMw','MERC','TAYOTA','Cobilt','Nexia'];
-a.unshift('Lomareginy');
-console.log(a);
+ * function newElement(arr,){
+    arr.unshift('salom');
+    return arr;
+}
+console.log(newElement([4,7,56,7]));
  */
 
 //5-masala
 /**
- * let a = ['BMw','MERC','TAYOTA','Cobilt','Nexia'];
-console.log(a.includes('Nexia'));
+ * function newElement(arr,element){
+    arr.includes(element);
+    return arr;
+}
+console.log(newElement());
  */
 
 //6-masala
 /**
- * let a = ['BMw','MERC','TAYOTA','Cobilt','Nexia'];
-console.log(a.indexOf('MERC'));
+ * function newElement(arr,element){
+    arr.indexOf(element);
+    return arr;
+}
+console.log(newElement());
  */
 
 //7-masala
 /**
- * let a = ['BMw','MERC','TAYOTA','Cobilt','Nexia', 'MERC'];
-console.log(a.lastIndexOf('MERC'));
+ * function newElement(arr,element){
+    arr.lastIndexOf(element);
+    return arr;
+}
+console.log(newElement());
  */
 
 //8-masala
 /**
- * let a = [1,2,3,4,5,6,7,8,9];
-a.splice(2, 3 )
-console.log(a);
+ * function newElement(arr){
+    arr.splice(2, 2);
+    return arr;
+}
+console.log(newElement([1,2,3,4,5]));
  */
 
 //9-masala
 /**
- * let a = [1,2,3,4,5,6,7,8,9];
-a.push('Salomlar');
-console.log(a);
+ * function newElement(arr){
+    arr.push('dunto');
+    return arr;
+}
+console.log(newElement([1,2,3,4,5]));
  */
 
 //10-masala
 /**
- * let a = [1,2,3,4,5,6,7,8,9, 'solo'];
-a.pop();
-console.log(a);
+ * function newElement(arr){
+    arr.pop();
+    return arr;
+}
+console.log(newElement([1,2,3,4,5]));
  */
 
 //11-masala
 /**
- * let a = ['dunyo',1,2,3,4,5,6,7,8,9, 'solo'];
-a.shift();
-console.log(a);
+ * function newElement(arr){
+    arr.shift();
+    return arr;
+}
+console.log(newElement([1,2,3,4,5]));
  */
 
 //12-masala
 /**
- * let a = ['dunyo',1,2,3,4,5,6,7,8,9, 'solo'];
-a.unshift(true);
-console.log(a);
- */
+ * function newElement(arr){
+    arr.unshift('Abdurahmon');
+    return arr;
+}
+console.log(newElement([1,2,3,4,5]));
 
-//13-masala
-/**
- * let a = ['dunyo',1,2,3,4,5,6,7,8,9, 'solo'];
-console.log(a.includes(10));
  */
 
 //14-masala
+
 /**
- * let a = ['dunyo',1,2,3,4,5,6,7,8,9, 'solo'];
-console.log(a.indexOf('solo'));
+ * function newElement(arr, element){
+    arr.includes(element);
+    return arr;
+}
+console.log(newElement());
  */
 
 //15-masala
 /**
- * let a = ['dunyo',1,2,3,4,5,6,7,8,9, 'solo', 4,5,6,7,45,654,2];
-console.log(a.lastIndexOf(7));
+ * 
+  function newElement(arr){
+    arr.indexOf();
+    return arr;
+}
+console.log(newElement([1,2,3,4,5]));
  */
 
 //16-masala
 /**
- * let a = ['dunyo',1,2,3,4,5,6,7,8,9, 'solo', 4,5,6,7,45,654,2];
-a.splice(5,7,"Abdurahmon")
-console.log(a);
+ * function newElement(arr){
+    arr.splice(1,2);
+    return arr;
+}
+console.log(newElement([1,2,3,4,5,6,7,8,9]));
  */
 
 
