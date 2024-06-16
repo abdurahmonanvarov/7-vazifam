@@ -1,193 +1,132 @@
-//console.log(cars.length);   //nechta element borligini bilsa boladi
-
-//console.log(cars[cars.length - 1]);  //massivni ohiridagisini ishlash
-
-//console.log(cars.at(-1)); //bunda ham ohirini topish uchun ishlatiladi
-
-//cars.push("Malibu");  //massivni ohiriga malumot qoshadi
-
-//cars.pop();  //massivni ohiridan malumot oladi
-
-//cars.unshift("Captiva");  //boshiga element qoshish
-
-//cars.shift();   //boshidan malumot olish
-
-//console.log(cars.includes("Damas"));  //massivni ichidan qidirib agar bolsa true bolmasa folse qiymat qaytaradi
-
-//console.log(cars.indexOf("Damas"));  //massivni qidiradi va bolsa index raqamini yozadi bolmasa -1 qaytaradi topa  olmasal
-
-//console.log(cars.lastIndexOf("Damas")); //massivni ohiridagi qiymatini korsatib beradi nachanchi indexs da turganini
-
-//let arr = [1,2,3,4,5,6,7,8];
-//arr.splice(2,0,10,20)  //bunda 2-indexsdan boshlab ochirmasadan 10 20 ni qosh degani
-//arr.splice(2,2);    //bunda 2-indexdan ikkitasini uchirish
-//arr.splice(2,2,10,20);  //2-indexdan ikkitasi uchiriladi 2-index degisiyam va 10 20 qoshiladi
-//console.log(arr);
-
-/**
- * let arr = ['olma', 'anor', 'behi', 'orik', 'shaftoli'];
-for (let i =0; i<=arr.length; i++){
-    console.log(arr[i]);
-}
-
- */
-
-//juftlarini yegindusi
-/**
- * let arr = [1,2,3,4,5,6,7,8];
-let sum = 0;
-for (let i =0; i<=arr.length; i++){
-    if (arr[i] %2==0){
-        sum += arr[i];
-    }
-}
-console.log(sum);
 
 
- */
-
-/**
- * function (arr){
-    let sum = 0;
-    for (let i =0; i<=arr.length; i++){
-        if (i %2==0){
-            sum += arr[i];
-        }
-    }
-    return sum;
-}
- */
-
-//console.log(sum[1,2,3,4,5,6,7,8]);
-
-
-//MASALALAR
+//masalalar
 //1-masala
 /**
- * function colors(color1, color2, color3){
+ *  function color(color1, color2, color3){
     let res = [];
     res.push(color1);
     res.push(color2);
     res.push(color3);
 
     return res;
-}
-console.log(colors('Qizil', 'Yashil', 'Kok'));
+ }
+ console.log(color("qizil", 'qora', 'kok'));
  */
 
-
-///2-masala
+//2-masala
 /**
- * function colors(num1, num2, num3){
+ *  function number(son1, son2, son3){
     let res = [];
-    res.push(num1);
-    res.push(num2);
-    res.push(num3);
+    res.push(son1);
+    res.push(son2);
+    res.push(son3);
 
     return res;
-}
-console.log(colors(3, 4, 5));
+ }
+ console.log(number(1,2,3));
  */
 
 //3-masala
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8];
-    colors.splice(1,6)
-   return arr =colors ;
+ *  function somthig(arr){
+    arr.shift();
+    arr.pop();
 
-}
-console.log(color());
-
+    return arr;
+ }
+ console.log(somthig([1,2,3,45,6,7,8]));
  */
 
 //4-masala
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8];
-    colors.splice(1,1,9);
-   return arr =colors ;
+ *  function somthig(arr){
+    arr.splice(1,1,666);
 
-}
-console.log(color());
-
+    return arr;
+ }
+ console.log(somthig([1,2,3,45,6,7,8]));
  */
 
 //5-masala
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8];
-    colors.push(598)
-   return arr =colors ;
+ *  function somthig(arr,element){
+    arr.push('salom');    //yokida  arr.push(element);  
 
-}
-console.log(color());
+    return arr;
+ }
+ console.log(somthig([1,2,3,45,6,7,8]));
  */
 
-//6-vazifa
+//6-masala
+
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8,10];
-    colors.splice(-1,1)
-   return arr =colors ;
+ *  function somthig(arr){
+    arr.pop();
 
-}
-console.log(color());
-
+    return arr;
+ }
+ console.log(somthig([1,2,3,45,6,7,8]));
  */
 
 //7-masala
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8,10];
-    return console.log(colors.length);
+ * function somthig(arr, element) {
+  arr.length();
 
+  return arr;
 }
-console.log(color());
+console.log(somthig(1, 2, 3, 4));
  */
 
 //8-masala
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8,10];
-    colors.unshift(1979)
-    return arr=colors;
-
-}
-console.log(color());
-
+ * function somthig(arr, element) {
+    arr.unshift('donyo');  //yokida arr.unshift(element);
+  
+    return arr;
+  }
+  console.log(somthig([1, 2, 3, 4]));
  */
 
-//9-masala
+ //9-masala
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8,10];
-    colors.shift()
-    return arr=colors;
-
-}
-console.log(color());
+ *  function somthig(arr, element) {
+    arr.shift();  //yokida arr.unshift(element);
+  
+    return arr;
+  }
+  console.log(somthig([1, 2, 3, 4]));
  */
 
-//10-masala
+  //10-masala
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8,10  ];
-    let string = ['salom', 'dunyo', 'mars']
-    return arr=colors+string;
-
-}
-console.log(color());
+ *   function somthig(arr, element) {
+    arr.push(element);  
+  
+    return arr;
+  }
+  console.log(somthig([1, 2, 3, 4], [7]));
  */
 
-//11-masala
+  //11-masala
 /**
- * function color(arr){
-    let colors = [1,2,3,4,5,6,7,8,10,9  ];
-    return console.log(colors.indexOf(9));;
+ *   function somthig(arr, element) {
+    arr.includes(element);  
+  
+    return arr;
+  }
+  console.log(somthig());
+ */
 
-}
-console.log(color());
+  //12-masala
+/**
+ *   function somthig(arr, element) {
+    arr.includes(element);  //yokida arr.unshift(element);
+  
+    return arr;
+  }
+  console.log(somthig());
  */
 
 //13-masala
